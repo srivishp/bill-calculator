@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  body {
+    color: white;
+    font-weight: 300;
+    background: #282c34;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container {
+    margin: 10% auto;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 40px;
+    font-weight: 200;
+  }
+  
+   form {
+    padding: 20px 0 ;
+    position: relative;
+  } 
+  form input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+  }
+  
+  .calcButton {
+    background-color: #4fb1cc;
+    border: 0;
+    padding: 10px 15px;
+    color: rgb(9, 103, 116)fb;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 18px;
+    margin: 0 auto 10px auto;
+    font-weight: 350;
+    display: block;
+  }
+  
+  .calcButton:hover{
+    background-color: #3990a8;
+  }
+  
+  .calcButton:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+  }
+  
+  .heading{
+    margin-top: 80px;
+    text-align: center;
+    color:#4fb1cc;
+    font-weight: 800;
+  }
+  
+  .last0{
+    text-align: center;
+  }
+  
+  .last1{
+    color: #4fb1cc;
+    text-align: center;
+    margin-top: 4px;
+    font-weight: 400;
+  }
